@@ -1,14 +1,14 @@
 import React from 'react'
 
-const Banner = (props) => (
-    <section id="banner" className="major">
+const BannerPrivacy = (props) => (
+    <section id="banner" className="style2">
         <div className="inner">
             <header className="major">
-                <h1>Joe Coyle Financial Consultants Ltd.</h1>
+                <h1>Privacy Statement</h1>
             </header>
             <div className="content">
-                <p>Joe Coyle Financial Consultants is<br />
-                regulated by the Central Bank of Ireland.</p>
+                <p>Privacy Notice of Joe Coyle<br />
+                Financial Consultants Ltd</p>
                 <ul className="actions">
                     <li><a href="#contact" className="button next scrolly">Get In Touch</a></li>
                 </ul>
@@ -17,4 +17,4 @@ const Banner = (props) => (
     </section>
 )
 
-export default Banner
+export default BannerPrivacy

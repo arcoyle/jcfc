@@ -31,31 +31,31 @@ class HomeIndex extends React.Component {
                     <section id="one" className="tiles">
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
-                                <h3>Aliquam</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <h3>Advice</h3>
+                                <p>Financial planning and advice</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/advice" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
-                                <h3>Tempus</h3>
-                                <p>feugiat amet tempus</p>
+                                <h3>Our Agencies</h3>
+                                <p>Agencies we work with</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/agencies" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
-                                <h3>Magna</h3>
+                                <h3>Our Fees</h3>
                                 <p>Lorem etiam nullam</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/fees" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic04})`}}>
                             <header className="major">
-                                <h3>Ipsum</h3>
+                                <h3>Privacy Statement</h3>
                                 <p>Nisl sed aliquam</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/privacy" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic05})`}}>
                             <header className="major">
@@ -83,6 +83,9 @@ class HomeIndex extends React.Component {
                             </ul>
                         </div>
                     </section>
+                    <div className="inner">
+                        <h4>Joe Coyle Financial Consultants Ltd is regulated by the Central Bank of Ireland</h4>
+                    </div>
                 </div>
 
             </Layout>
