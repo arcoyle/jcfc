@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-forty-v2",
-  "description": "Gatsby Starter - Forty V2",
+  "name": "JCFC.ie",
+  "description": "Joe Coyle Financial Consultants Ltd.",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Aron Coyle",
   "dependencies": {
     "gatsby": "^2.19.5",
     "gatsby-plugin-manifest": "^2.2.38",
@@ -31,6 +31,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/arcoyle/jcfc"
   }
 }
