@@ -42,14 +42,15 @@ const Contact = (props) => (
                     <div className="contact-method">
                         <span className="icon alt fa-phone"></span>
                         <h3>Mobile</h3>
-                        <span>087 7689425</span>
+                        <span>087 2579931</span>
                     </div>
                 </section>
                 <section>
                     <div className="contact-method">
                         <span className="icon alt fa-home"></span>
                         <h3>Address</h3>
-                        <span>Hall Demesne<br />
+                        <span>Rosguill<br />
+                        Hall Demesne<br />
                         Mountcharles<br />
                         Co. Donegal</span>
                     </div>

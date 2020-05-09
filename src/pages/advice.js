@@ -55,7 +55,7 @@ const Advice = (props) => (
                             </header>
                             <p>Through initial conversations with you we will establish a clear picture of your current financial circumstances and your short, medium and long-term financial goals.</p>
                             <p>We will then recommend a financial plan that outlines the steps you need to take to help you achieve those goals and aspirations.</p>
-                            <p>The advice we give is entirely impartial as are the products we recommend – we offer advice on the basis of Fair Analysis of the market (Limited Analysis for deposit products).</p>
+                            <p>The advice we give is entirely impartial as are the products we recommend – we offer advice on the basis of Fair Analysis of the market.</p>
                             <p>We believe that when it comes to your money, careful, disciplined planning is the best way forward.</p>
                         </div>
                     </div>
