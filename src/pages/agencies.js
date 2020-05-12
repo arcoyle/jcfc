@@ -34,9 +34,11 @@ const Agencies = (props) => (
                         <li>Wealth Options Limited</li>
                         <li>Zurich Life Assurance plc</li>
                     </ul>
-                    <h4>Joe Coyle Financial Consultants Ltd is regulated by the Central Bank of Ireland</h4>
                 </div>
             </section>
+            <div className="inner">
+                <h4>Joe Coyle Financial Consultants Ltd is regulated by the Central Bank of Ireland</h4>
+            </div>
           </div>
 
     </Layout>

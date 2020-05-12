@@ -10,7 +10,8 @@ const Footer = (props) => (
                 <li><a href="#" className="icon alt fa-twitter"><span className="label">Twitter</span></a></li>
                 <li><a href="#" className="icon alt fa-facebook"><span className="label">Facebook</span></a></li>
             </ul>
-            <p><Link to="/charges" className="link primary">Charges</Link></p>
+            <div class="cc-cpc116-link"></div>
+            <a class="cc-cpc116-triggcder" href="#">Charges</a>
             <ul className="copyright">
                 <li>&copy; JCFC 2020</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
             </ul>
