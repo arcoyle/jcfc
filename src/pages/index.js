@@ -16,14 +16,15 @@ class HomeIndex extends React.Component {
 
         return (
             <Layout>
-                <Helmet
-                    title="Joe Coyle | Financial Consultant"
-                    meta={[
-                        { name: 'description', content: 'Sample' },
-                        { name: 'keywords', content: 'sample, something' },
-                    ]}
-                >
+                <Helmet>
+                    <title>Joe Coyle | Financial Consultant</title>
+                    <meta name="description" content="Homepage" />
+                    <script id="cc-cpc116-loader"
+                        src="https://cpc116api.clearchoice.ie/asset/js/xxx_JSP"
+                        apiKey="xxx">
+                    </script>
                 </Helmet>
+
 
                 <Banner />
 

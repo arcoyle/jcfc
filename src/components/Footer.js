@@ -11,7 +11,6 @@ const Footer = (props) => (
                 <li><a href="#" className="icon alt fa-facebook"><span className="label">Facebook</span></a></li>
             </ul>
             <div class="cc-cpc116-link"></div>
-            <a class="cc-cpc116-triggcder" href="#">Charges</a>
             <ul className="copyright">
                 <li>&copy; JCFC 2020</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
             </ul>
