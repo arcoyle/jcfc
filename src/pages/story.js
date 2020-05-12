@@ -11,7 +11,7 @@ import pic10 from '../assets/images/pic10.jpg'
 const Story = (props) => (
     <Layout>
         <Helmet>
-            <title>Agencies</title>
+            <title>Story So Far</title>
             <meta name="description" content="Landing Page" />
         </Helmet>
 
