@@ -7,8 +7,8 @@ const Banner = (props) => (
                 <h1>Joe Coyle Financial Consultants Ltd.</h1>
             </header>
             <div className="content">
-                <p>Joe Coyle Financial Consultants is<br />
-                regulated by the Central Bank of Ireland.</p>
+                <p>Joe Coyle Financial Consultants is regulated<br />
+                by the Central Bank of Ireland.</p>
                 <ul className="actions">
                     <li><a href="#contact" className="button next scrolly">Get In Touch</a></li>
                 </ul>

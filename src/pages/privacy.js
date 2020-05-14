@@ -1,12 +1,7 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerPrivacy from '../components/BannerPrivacy'
-
-import pic08 from '../assets/images/pic08.jpg'
-import pic09 from '../assets/images/pic09.jpg'
-import pic10 from '../assets/images/pic10.jpg'
 
 //built from landing.js. removed images and reworded. replace images as needed
 
@@ -160,7 +155,7 @@ const Privacy = (props) => (
                         <h3>Privacy policy statement changes</h3>
                     </header>
                     <p>Joe Coyle Financial Consultants Ltd. may change this Privacy Notice from time to time. When such a change is made, we will post a revised version online. Changes will be effective from the point at which they are posted. It is your responsibility to review this privacy policy periodically so you’re aware of any changes. By using our services you agree to this privacy policy.</p>
-                    <h3> This privacy policy was last reviewed in May 2018</h3>
+                    <h3> This privacy policy was last reviewed in May 2020</h3>
                 </div>
             </section>
             <div className="inner">

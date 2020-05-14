@@ -7,8 +7,8 @@ const BannerChoose = (props) => (
                 <h1>Why Choose Us</h1>
             </header>
             <div className="content">
-                <p>Lorem ipsum dolor sit amet nullam consequat<br />
-                sed veroeros. tempus adipiscing nulla.</p>
+                <p>Over 30 years industry experience offering<br />
+                integrity based independent advice.</p>
                 <ul className="actions">
                     <li><a href="#contact" className="button next scrolly">Get In Touch</a></li>
                 </ul>

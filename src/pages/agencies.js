@@ -1,12 +1,7 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerAgencies from '../components/BannerAgencies'
-
-import pic08 from '../assets/images/pic08.jpg'
-import pic09 from '../assets/images/pic09.jpg'
-import pic10 from '../assets/images/pic10.jpg'
 
 const Agencies = (props) => (
     <Layout>
@@ -20,9 +15,6 @@ const Agencies = (props) => (
         <div id="main">
             <section id="one">
                 <div className="inner">
-                    <header className="major">
-                        <h2>Our Agencies</h2>
-                    </header>
                     <ul className="alt">
                         <li>Aviva Life & Pensions UK Limited</li>
                         <li>BCP Asset Management Ltd</li>

@@ -1,14 +1,11 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerAdvice from '../components/BannerAdvice'
 
-import pic08 from '../assets/images/pic08.jpg'
-import pic09 from '../assets/images/pic09.jpg'
-import pic10 from '../assets/images/pic10.jpg'
+import image07 from '../assets/images/image07.jpg'
+import image08 from '../assets/images/image08.jpg'
 
-//built from landing.js. removed images and reworded. replace images as needed
 
 const Advice = (props) => (
     <Layout>
@@ -22,15 +19,12 @@ const Advice = (props) => (
         <div id="main">
             <section id="one">
                 <div className="inner">
-                    <header className="major">
-                        <h2>Financial planning and advice</h2>
-                    </header>
-                    <p>An experienced and trusted provider of financial advice for individuals and small businesses in the North West.</p>
                     <p>In today’s economy we understand how hard it is to create long-term financial security. It can be difficult to decide how to use your money today to provide a better future for you, your family and your business tomorrow.</p>
                 </div>
             </section>
             <section id="two" className="spotlights">
                 <section>
+
                     <div className="content">
                         <div className="inner">
                             <header className="major">
@@ -46,6 +40,7 @@ const Advice = (props) => (
                             <p>and that you fully understand the products you use.</p>
                         </div>
                     </div>
+                    <img src={image08} alt="" />
                 </section>
                 <section>
                     <div className="content">
@@ -59,6 +54,7 @@ const Advice = (props) => (
                             <p>We believe that when it comes to your money, careful, disciplined planning is the best way forward.</p>
                         </div>
                     </div>
+                    <img src={image07} alt="" />
                 </section>
             </section>
             <div className="inner">

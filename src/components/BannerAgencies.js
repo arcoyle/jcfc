@@ -7,8 +7,8 @@ const BannerAgencies = (props) => (
                 <h1>Our Agencies</h1>
             </header>
             <div className="content">
-                <p>Lorem ipsum dolor sit amet nullam consequat<br />
-                sed veroeros. tempus adipiscing nulla.</p>
+                <p>Key partners we<br />
+                regularly work with.</p>
                 <ul className="actions">
                     <li><a href="#contact" className="button next scrolly">Get In Touch</a></li>
                 </ul>

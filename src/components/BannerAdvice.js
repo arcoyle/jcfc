@@ -7,8 +7,8 @@ const BannerAdvice = (props) => (
                 <h1>FINANCIAL PLANNING AND ADVICE</h1>
             </header>
             <div className="content">
-                <p>Lorem ipsum dolor sit amet nullam consequat<br />
-                sed veroeros. tempus adipiscing nulla.</p>
+                <p>An experienced and trusted provider of financial advice<br />
+                for individuals and small businesses in the North West.</p>
                 <ul className="actions">
                     <li><a href="#contact" className="button next scrolly">Get In Touch</a></li>
                 </ul>

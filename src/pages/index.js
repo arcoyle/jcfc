@@ -4,12 +4,12 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
-import pic01 from '../assets/images/pic01.jpg'
-import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
-import pic04 from '../assets/images/pic04.jpg'
-import pic05 from '../assets/images/pic05.jpg'
-import pic06 from '../assets/images/pic06.jpg'
+import image01 from '../assets/images/image01.jpg'
+import image02 from '../assets/images/image02.jpg'
+import image03 from '../assets/images/image03.jpg'
+import image04 from '../assets/images/image04.jpg'
+import image05 from '../assets/images/image05.jpg'
+import image06 from '../assets/images/image06.jpg'
 
 class HomeIndex extends React.Component {
     render() {
@@ -20,8 +20,8 @@ class HomeIndex extends React.Component {
                     <title>Joe Coyle | Financial Consultant</title>
                     <meta name="description" content="Homepage" />
                     <script id="cc-cpc116-loader"
-                        src="https://cpc116api.clearchoice.ie/asset/js/xxx_JSP"
-                        apiKey="xxx">
+                        src="https://cpc116api.clearchoice.ie/asset/js/3e5265d713973fa50354bb29b48b79a2_JSP"
+                        apiKey="dce27720-7375-11ea-8a76-03915609c934">
                     </script>
                 </Helmet>
 
@@ -30,45 +30,45 @@ class HomeIndex extends React.Component {
 
                 <div id="main">
                     <section id="one" className="tiles">
-                        <article style={{backgroundImage: `url(${pic01})`}}>
+                        <article style={{backgroundImage: `url(${image01})`}}>
                             <header className="major">
                                 <h3>Advice</h3>
                                 <p>Financial planning and advice</p>
                             </header>
                             <Link to="/advice" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic02})`}}>
+                        <article style={{backgroundImage: `url(${image02})`}}>
                             <header className="major">
                                 <h3>Our Agencies</h3>
                                 <p>Agencies we work with</p>
                             </header>
                             <Link to="/agencies" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic03})`}}>
+                        <article style={{backgroundImage: `url(${image03})`}}>
                             <header className="major">
                                 <h3>Our Fees</h3>
-                                <p>Lorem etiam nullam</p>
+                                <p>Fee information</p>
                             </header>
                             <Link to="/fees" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic04})`}}>
+                        <article style={{backgroundImage: `url(${image04})`}}>
                             <header className="major">
                                 <h3>Privacy Statement</h3>
-                                <p>Nisl sed aliquam</p>
+                                <p>Privacy is important to us</p>
                             </header>
                             <Link to="/privacy" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic05})`}}>
+                        <article style={{backgroundImage: `url(${image05})`}}>
                             <header className="major">
                                 <h3>Why Choose Us</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <p>Experience, impartiality, integrity</p>
                             </header>
                             <Link to="/choose" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic06})`}}>
+                        <article style={{backgroundImage: `url(${image06})`}}>
                             <header className="major">
-                                <h3>Story so Far</h3>
-                                <p>Feugiat amet tempus</p>
+                                <h3>My Story so Far</h3>
+                                <p>Proven track record</p>
                             </header>
                             <Link to="/story" className="link primary"></Link>
                         </article>

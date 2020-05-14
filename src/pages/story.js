@@ -1,12 +1,7 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerStory from '../components/BannerStory'
-
-import pic08 from '../assets/images/pic08.jpg'
-import pic09 from '../assets/images/pic09.jpg'
-import pic10 from '../assets/images/pic10.jpg'
 
 const Story = (props) => (
     <Layout>
@@ -36,6 +31,8 @@ const Story = (props) => (
                         <li><strong>2013</strong> - Helping you understand, use and source financial products which suit your circumstances</li>
                         <li><strong>2015</strong> - Chairman of Donegal Town Darkness into Light 2015 organising committee</li>
                         <li><strong>2016</strong> - Organised and participated in “Go4Pieta” which caused €56,000 to be raised for Pieta House North west</li>
+                        <li><strong>2018</strong> - Organised and participated in “Circuit of Donegal”, a seven day endurance event to raise funds for Pieta House Northwest and Jigsaw Donegal</li>
+                        <li><strong>2020</strong> - Chairman of Donegal Town Business Focus Group</li>
                     </ul>
                 </div>
             </section>

@@ -7,8 +7,8 @@ const BannerFees = (props) => (
                 <h1>Our Fees</h1>
             </header>
             <div className="content">
-                <p>Lorem ipsum dolor sit amet nullam consequat<br />
-                sed veroeros. tempus adipiscing nulla.</p>
+                <p>Information on our fees<br />
+                and how they are structured.</p>
                 <ul className="actions">
                     <li><a href="#contact" className="button next scrolly">Get In Touch</a></li>
                 </ul>
